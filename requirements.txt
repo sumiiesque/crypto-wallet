@@ -1,0 +1,6 @@
+flask==3.0.0
+flask-cors==4.0.0
+web3==6.11.3
+ecdsa==0.18.0
+base58==2.1.1
+
