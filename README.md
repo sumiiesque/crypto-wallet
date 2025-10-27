@@ -1,6 +1,6 @@
 # Beginner-Friendly Multi-Network Crypto Wallet
 
-A non-custodial cryptocurrency wallet supporting Bitcoin and Ethereum networks, featuring both a modern React frontend and Python backend.
+A non-custodial cryptocurrency wallet supporting Bitcoin and Ethereum networks, featuring both a modern React frontend and Python CLI.
 
 ## 🎯 Key Features
 
@@ -62,13 +62,17 @@ python main.py
 │   ├── App.jsx            # Main React component
 │   ├── App.css            # Styles
 │   └── main.jsx           # Entry point
+├── crypto/                # Crypto utilities
+│   ├── key_management.py
+│   ├── address_generation.py
+│   └── crypto_utils.py
+├── blockchain/            # Blockchain functions
+│   ├── eth_connect.py
+│   └── transaction_manage.py
 ├── api_server.py          # Flask API server
 ├── main.py                # Python CLI interface
-├── key_management.py      # Key generation/import
-├── address_generation.py  # Address derivation
-├── eth_connect.py         # Ethereum connection
-├── transaction_manage.py  # Transaction handling
-└── crypto_utils.py        # Cryptographic utilities
+├── requirements.txt       # Python dependencies
+└── package.json           # Node.js dependencies
 ```
 
 ## 🌐 API Endpoints
